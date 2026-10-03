@@ -1,0 +1,14 @@
+{
+    "cniVersion": "0.4.0",
+    "name": "example-network",
+    "plugins": [
+        {
+            "type": "YOUR_PRIMARY_PLUGIN"
+        },
+        {
+            "type": "apipa",
+            "networkName": "apipa-host",
+            "hostAddress": "169.254.1.1"
+        }
+    ]
+}
